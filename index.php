@@ -16,9 +16,9 @@ function display_post_widget() {
 
 
     wp_add_dashboard_widget(
-        'display_post_widget',            // Widget slug
-        'Recently Published Post',          // Title
-        'display_post'                    // Display function
+        'display_post_widget',            
+        'Recently Published Post',          
+        'display_post'                    
     );
 }
 add_action('wp_dashboard_setup', 'display_post_widget');
